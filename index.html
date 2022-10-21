@@ -5,33 +5,45 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+
 </head>
-<body>
+<body class="config">
+    
+    <!-- header -->
+
     <header>
         <nav>
-            <a href="./">WebStudio</a>
-            <ul>
-                <li><a href="">Студія</a></li>
-                <li><a href="">Портфоліо</a></li>
-                <li><a href="">Контакти</a></li>
+            <a href="./" class="link"><span logo-decoration class="logo">Web</span>Studio</a>
+            <ul class="list">
+                <li><a href="./" class="link">Студія</a></li>
+                <li><a href="./portfolio.html" class="link">Портфоліо</a></li>
+                <li><a href="" class="link">Контакти</a></li>
             </ul>
         </nav>
         <ul>
             <li>
-                <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+                <a href="mailto:info@devstudio.com" class="link text-c-3">info@devstudio.com</a>
             </li>
             <li>
-                <a href="tel:+380961111111">+38 096 111 11 11</a>
+                <a href="tel:+380961111111" class="link text-c-3">+38 096 111 11 11</a>
             </li>
         </ul>
     </header>
+    
+    <!-- main -->
+
     <main>
-        <section>
-            <h1>Ефективні рішення для вашого бізнесу</h1>
-            <button type="button">Замовити послугу</button>
+        <section class="hero section-bg">
+            <h1 class="text-c-2">Ефективні рішення для вашого бізнесу</h1>
+            <button type="button" class="hero-botton link-revers">Замовити послугу</button>
         </section>
         <section>
-            <!-- <h2></h2> -->
+            <h2 class="hiden-title"></h2>
             <ul>
                 <li>
                     <h3>УВАГА ДО ДЕТАЛЕЙ</h3>
@@ -51,52 +63,56 @@
                 </li>
             </ul>
         </section>
-        <section>
+        <section class="second-section-bg">
             <h2>Чим ми займаємося</h2>
             <ul>
-                <li><img src="./images/wotks_photo_1.jpg" alt="wotks_photo_1" width="370" height="294"></li>
-                <li><img src="./images/wotks_photo_2.jpg" alt="wotks_photo_2" width="370" height="294"></li>
-                <li><img src="./images/wotks_photo_3.jpg" alt="wotks_photo_3" width="370" height="294"></li>
+                <li><img src="./images/wotks-photo-1.jpg" alt="wotks-photo-1" width="370" height="294"></li>
+                <li><img src="./images/wotks-photo-2.jpg" alt="wotks-photo-2" width="370" height="294"></li>
+                <li><img src="./images/wotks-photo-3.jpg" alt="wotks-photo-3" width="370" height="294"></li>
             </ul>
         </section>
         <section>
             <h2>Наша команда</h2>
             <ul>
                 <li>
-                    <img src="./images/teammate_1.jpg" alt="teammate_1" width="270" height="260">
+                    <img src="./images/teammate-1.jpg" alt="teammate-1" width="270" height="260">
                     <h3>Ігор Дем'яненко</h3>
                     <p>Product Designer</p>
                 </li>
                 <li>
-                    <img src="./images/teammate_2.jpg" alt="teammate_2" width="270" height="260">
+                    <img src="./images/teammate-2.jpg" alt="teammate-2" width="270" height="260">
                     <h3>Ольга Рєпіна</h3>
                     <p>Frontend Developer</p>
                 </li>
                 <li>
-                    <img src="./images/teammate_3.jpg" alt="teammate_3" width="270" height="260">
+                    <img src="./images/teammate-3.jpg" alt="teammate-3" width="270" height="260">
                     <h3>Микола Тарасов</h3>
                     <p>Marketing</p>
                 </li>
                 <li>
-                    <img src="./images/teammate_4.jpg" alt="teammate_4" width="270" height="260">
+                    <img src="./images/teammate-4.jpg" alt="teammate-4" width="270" height="260">
                     <h3>Михайло Єрмаков</h3>
                     <p>UI Designer</p>
                 </li>
             </ul>
         </section>
     </main>
-    <footer>
-        <a href="./">WebStudio</a>
+    
+    <!-- footer -->
+
+    <footer class="section-bg">
+        <a href="./" class="link text-c-2"><span logo-decoration class="logo">Web</span>Studio</a>
+        
         <address>
             <ul>
                 <li>
-                    <a href="">м. Київ, пр-т Лесі Українки, 26</a>
+                    <a href="" class="link text-c-2">м. Київ, пр-т Лесі Українки, 26</a>
                 </li>
                 <li>
-                    <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+                    <a href="mailto:info@devstudio.com" class="link text-c-4">info@devstudio.com</a>
                 </li>
                 <li>
-                    <a href="tel:+380961111111">+38 096 111 11 11</a>
+                    <a href="tel:+380961111111" class="link text-c-4">+38 096 111 11 11</a>
                 </li>
             </ul>
         </address>

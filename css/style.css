@@ -1,0 +1,109 @@
+
+/* ----------global---------- */
+
+:root{
+    --text-decoration: Roboto, Relevey, sans-serif;
+    --bg-color:#FFFFFF;
+    --section-color-1:#2F303A;
+    --section-color-2:#F5F4FA;
+
+    --text-color:#212121;
+    --second-text-color:#FFFFFF;
+    --third-text-color:#757575;
+    --fourth-text-color:rgba(255, 255, 255, 0.6);
+
+    --link-color: #2196F3;
+    --link-revers-color:#FFFFFF;
+    --logo-color:#2196F3;
+    --botton-color:#F5F4FA;
+}
+
+body{
+    font-family: var(--text-decoration);
+    background-color: var(--bg-color);
+    color: var(--text-color);   
+}
+
+.config li{
+    list-style: none;
+}
+
+
+/* ----------header---------- */
+
+
+.link{
+    text-decoration: none;
+    color: var(--text-color);
+}
+.link:focus,
+.link:hover{
+    color: var(--link-color);
+}
+
+.link-revers{
+    text-decoration: none;
+    background-color:var(--link-color);
+    color: var(--second-text-color);
+}
+.link-revers:focus,
+.link-revers:hover{
+    background: var(--link-revers-color);
+    color: var(--text-color);
+}
+
+.logo{
+    color: var(--logo-color);
+}
+
+
+/* ----------main---------- */
+
+
+.second-section-bg{
+    background-color: var(--section-color-2);
+}
+
+.hero-botton,
+.botton-style{
+    border: none;
+    cursor: pointer;
+}
+
+.botton-style{
+    background-color: var(--botton-color);
+}
+
+.hiden-title{
+    display: none;
+}
+
+.section-bg{
+    background-color: var(--section-color-1);
+}
+
+
+/* ----------footer---------- */
+
+
+address{
+    font-family: none;
+    font-style: normal;
+}
+
+
+
+/* ----------text-color-list---------- */
+
+
+.text-c-2{
+    color: var(--second-text-color);
+}
+
+.text-c-3{
+    color: var(--third-text-color);
+}
+
+.text-c-4{
+    color: var(--fourth-text-color);
+}
