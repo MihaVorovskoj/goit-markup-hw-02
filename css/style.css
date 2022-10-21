@@ -44,21 +44,15 @@ body{
     color: var(--text-color);
 }
 
+[aria-current] {
+    color: var(--link-color);
+}
+
 .link:focus,
 .link:hover{
     color: var(--link-color);
 }
 
-.l-b{
-    width: 125px;
-height: 38px;
-}
-.l-b:focus,
-.l-b:hover{
-    background-color: var(--link-color);
-    color: var(--link-revers-color);
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-}
 
 
 .logo-style{
@@ -189,6 +183,16 @@ height: 38px;
 
 
 /* ----------portfilo main---------- */
+.l-b{
+    width: 125px;
+    height: 38px;
+}
+.l-b:focus,
+.l-b:hover{
+    background-color: var(--link-color);
+    color: var(--link-revers-color);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
 
 .scroll-list{
     background-color: var(--botton-color);
