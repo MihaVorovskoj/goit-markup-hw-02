@@ -30,72 +30,59 @@ body{
 
 
 /* ----------header---------- */
-
+.logo-style{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: calc(31/26);
+    letter-spacing: 0.03em;
+}
 
 .link{
     text-decoration: none;
     color: var(--text-color);
 }
+
 .link:focus,
 .link:hover{
     color: var(--link-color);
 }
 
-.link-revers{
-    text-decoration: none;
-    background-color:var(--link-color);
-    color: var(--second-text-color);
+.l-b{
+    width: 125px;
+height: 38px;
 }
-.link-revers:focus,
-.link-revers:hover{
-    background: var(--link-revers-color);
-    color: var(--text-color);
+.l-b:focus,
+.l-b:hover{
+    background-color: var(--link-color);
+    color: var(--link-revers-color);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+
+.logo-style{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height:calc(31/26);
+    letter-spacing: 0.03em;
 }
 
 .logo{
     color: var(--logo-color);
 }
 
+.navigation{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height:calc(16/14);
+    letter-spacing: 0.02em;
+}
+
 
 /* ----------main---------- */
-
-
-.second-section-bg{
-    background-color: var(--section-color-2);
-}
-
-.hero-botton,
-.botton-style{
-    border: none;
-    cursor: pointer;
-}
-
-.botton-style{
-    background-color: var(--botton-color);
-}
-
-.hiden-title{
-    display: none;
-}
-
-.section-bg{
-    background-color: var(--section-color-1);
-}
-
-
-/* ----------footer---------- */
-
-
-address{
-    font-family: none;
-    font-style: normal;
-}
-
-
-
-/* ----------text-color-list---------- */
-
-
 .text-c-2{
     color: var(--second-text-color);
 }
@@ -107,3 +94,123 @@ address{
 .text-c-4{
     color: var(--fourth-text-color);
 }
+
+
+
+.hero-title{
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: calc(60/44);
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+
+/* section hero */
+
+
+.hero-botton,
+.scroll-list{
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+.hero-botton{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: calc(30/16);
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+}
+.hero-botton{
+    background-color: var(--link-color);
+    color: #FFFFFF;
+}
+.hero-botton:focus,
+.hero-botton:hover{
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.hiden-title{
+    display: none;
+}
+
+.section-bg{
+    background-color: var(--section-color-1);
+}
+
+/* section 2 */
+/* section 3 */
+
+.title-2{
+
+    font-style: normal;
+    font-size: 36px;
+    line-height: calc(42/36);
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+.title-3{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: calc(24/14);
+    letter-spacing: 0.03em;
+}
+
+/* section 4 */
+
+.second-section-bg{
+    background-color: var(--section-color-2);
+}
+.title-3-1{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: calc(19/16);
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+.work-position{
+    font-style: normal;
+    font-size: 16px;
+    line-height: calc(19/16);
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+
+
+/* ----------portfilo main---------- */
+
+.scroll-list{
+    background-color: var(--botton-color);
+}
+.p-title-2{
+    font-style: normal;
+    font-size: 18px;
+    line-height: calc(36/18);
+    letter-spacing: 0.06em;
+}
+.text-coment{
+    font-style: normal;
+    font-size: 16px;
+    line-height: calc(30/16);
+    letter-spacing: 0.03em;
+}
+
+/* ----------footer---------- */
+
+
+address{
+    font-family: none;
+    font-style: normal;
+}
+
