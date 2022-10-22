@@ -2,7 +2,7 @@
 /* ----------global---------- */
 
 :root{
-    --text-decoration: Roboto, Relevey, sans-serif;
+    --text-decoration: Roboto, Raleway, sans-serif;
     --bg-color:#FFFFFF;
     --section-color-1:#2F303A;
     --section-color-2:#F5F4FA;
@@ -30,13 +30,14 @@ body{
 
 
 /* ----------header---------- */
+
 .logo-style{
     font-family: 'Raleway';
-    font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: calc(31/26);
     letter-spacing: 0.03em;
+    text-decoration: none;
 }
 
 .link{
@@ -53,21 +54,11 @@ body{
     color: var(--link-color);
 }
 
-
-.logo-style{
-    font-style: normal;
-    font-weight: 700;
-    font-size: 26px;
-    line-height:calc(31/26);
-    letter-spacing: 0.03em;
-}
-
 .logo{
     color: var(--logo-color);
 }
 
 .navigation{
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height:calc(16/14);
@@ -91,7 +82,6 @@ body{
 }
 
 .hero-title{
-    font-style: normal;
     font-weight: 900;
     font-size: 44px;
     line-height: calc(60/44);
@@ -111,7 +101,6 @@ body{
 }
 .hero-botton{
     font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: calc(30/16);
@@ -119,15 +108,12 @@ body{
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
-}
-.hero-botton{
     background-color: var(--link-color);
-    color: #FFFFFF;
+    color: var(--link-revers-color);
 }
 .hero-botton:focus,
 .hero-botton:hover{
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background-color:#188CE8;
 }
 
 .hiden-title{
@@ -139,33 +125,44 @@ body{
 }
 
 /* section 2 */
+
+.s-2-t{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 14px;
+    line-height: calc(24/14);
+    letter-spacing: 0.03em;
+}
+
+
 /* section 3 */
 
 
 .title-2{
-
-    font-style: normal;
     font-size: 36px;
     line-height: calc(42/36);
     text-align: center;
     letter-spacing: 0.03em;
 }
 .title-3{
-    font-style: normal;
-    font-weight: 400;
+    Font-style: bold;
     font-size: 14px;
     line-height: calc(24/14);
     letter-spacing: 0.03em;
 }
 
 /* section 4 */
-
+.team-list{
+    background: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
 
 .second-section-bg{
     background-color: var(--section-color-2);
 }
+
 .title-3-1{
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: calc(19/16);
@@ -173,7 +170,6 @@ body{
     letter-spacing: 0.03em;
 }
 .work-position{
-    font-style: normal;
     font-size: 16px;
     line-height: calc(19/16);
     text-align: center;
@@ -181,13 +177,16 @@ body{
 }
 
 
-
 /* ----------portfilo main---------- */
 
 
+.content-list{
+    background: var(--bg-color);
+    border: 1px solid var;  
+}
+
 .l-b{
-    width: 125px;
-    height: 38px;
+    font-family: 'Roboto';
 }
 .l-b:focus,
 .l-b:hover{
@@ -200,13 +199,11 @@ body{
     background-color: var(--botton-color);
 }
 .p-title-2{
-    font-style: normal;
     font-size: 18px;
     line-height: calc(36/18);
     letter-spacing: 0.06em;
 }
 .text-coment{
-    font-style: normal;
     font-size: 16px;
     line-height: calc(30/16);
     letter-spacing: 0.03em;
